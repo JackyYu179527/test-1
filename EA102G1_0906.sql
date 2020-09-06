@@ -652,9 +652,10 @@ insert into membre(membre_id, mem_name, sex, address, phone, email, status, comp
 ('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), 'Zenitsu', '男', '日本大阪', '091233211', 'Zenitsu@gmail.com', '0', 'Zenitsu@gmail.com', 'Zenitsu', sysdate);
 
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪大明', '男', '台中向上路', '0800000000', 'smonkey@gamil.com', '0', 'smonkey', 'smonkey', sysdate);
-insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
 ('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪小玲', '女', '台北信義區', '0911222333', 'ling@gamil.com', '0', 'ling', 'ling', sysdate);
+insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪大明', '男', '台中向上路', '0800000000', 'smonkey@gamil.com', '0', 'smonkey', 'smonkey', sysdate);
+
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
 ('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林朝章', '男', '新北板橋區', '0912345678', 'mingdow@gamil.com', '0', 'mingdow', 'mingdow', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
@@ -761,19 +762,22 @@ INSERT INTO CAR_EXT(CEXT_ID, VENDER_ID, CEXT_CAT_ID, CEXT_NAME, CEXT_PRICE, CEXT
 --(1)insert dress case
 INSERT INTO DRESS_CASE VALUES
 ('WDC'|| LPAD(TO_CHAR(dressCase_seq.NEXTVAL),3,'0'),'V005',
-'義式純白手工婚紗','義式純白手工婚紗，設計師取經自米蘭，以細緻手工打造歐美系高級訂製禮服，納入時尚之都的百年文化古典蕾絲元素，成就經典不敗的婚紗印象。
+'義式純白手工婚紗','義式純白手工婚紗，設計師取經自米蘭，以細緻手工打造歐美系高級訂製禮服，納入時尚之都的百年文化古典蕾絲元素，
+成就經典不敗的婚紗印象。
 
 【方案內容】
-一套義式純白手工婚紗，可在下訂時，另外加購我們的”純淨無暇頭紗(白色)”。
-方案價已包含試穿後可能的修改費用。
+一套義式純白手工婚紗，讓您在婚禮上感受來自義大利溫暖熱情的氣息。
+簡單高雅的設計襯托出您獨一無二的氣質，方案價已包含試穿後可能的修改費用。
 ',35000,1);
 
 INSERT INTO DRESS_CASE VALUES
 ('WDC'||LPAD(TO_CHAR(dressCase_seq.NEXTVAL),3,'0'),'V006','英倫紳士西服',
-'以深厚的西服訂做底子起家，同時追求頂尖時尚、不斷精進創新，設計出挺拔正式、低調奢華、兼具顧客需求與時尚的男仕西服。講究版型契合度，任何身型的新郎都能展現出自己的個人風格。
+'以深厚的西服訂做底子起家，同時追求頂尖時尚、不斷精進創新，設計出挺拔正式、低調奢華、兼具顧客需求與時尚的男仕西服。
+講究版型契合度，任何身型的新郎都能展現出自己的個人風格。
 
 【方案內容】
-一套英倫風西裝與皮鞋，在試穿時，讓我們幫您找出最適合您的西裝與皮鞋的尺寸。若希望在婚禮時更能展現雄風，可在下訂時另外加購我們的鞋墊，尺寸有s,m,l,xl號。
+一套英倫風西裝與皮鞋，在試穿時，讓我們幫您找出最適合您的西裝與皮鞋的尺寸。
+若希望在婚禮時更能展現雄風，可在下訂時另外加購我們的鞋墊，尺寸有s,m,l,xl號。
 方案價已包含試穿後可能的修改費用。
 ',6000,1);
 INSERT INTO DRESS_CASE VALUES
@@ -788,9 +792,8 @@ INSERT INTO DRESS_CASE VALUES
 ',18000,1);
 
 INSERT INTO DRESS_CASE VALUES
-('WDC'||LPAD(TO_CHAR(dressCase_seq.NEXTVAL),3,'0'),'V007','法式浪漫深V領雪紡露背禮服',
+('WDC'||LPAD(TO_CHAR(dressCase_seq.NEXTVAL),3,'0'),'V007','法式浪漫雪紡禮服',
 'A-line 裙尾設計，典雅大方又莊重，帶點雪紡的紗軟材質，適合氣質路線的新娘們。胸前的蕾絲服貼細緻，顯現出您的好曲線!
-
 
 【方案內容】
 一套法式浪漫純白雪紡禮服，可在下訂時，另外加購我們上架的”公主系花環頭飾”。
@@ -808,6 +811,19 @@ INSERT INTO DRESS_CASE VALUES
 方案價已包含試穿後可能的修改費用。
 ',
 15000,1);
+
+INSERT INTO DRESS_CASE VALUES
+('WDC'||LPAD(TO_CHAR(dressCase_seq.NEXTVAL),3,'0'),'V007','輕婚紗',
+'方案簡介：買一件輕婚紗去旅行已經成了趨勢，不想再帶著一件件沉甸甸的婚紗去旅行。
+
+沒有走過一趟，妳怎麼知道未來會發生甚麼事?您可以選擇讓Diana手工婚紗陪著妳與愛人去旅行。
+
+【方案內容】
+一套純白輕婚紗，可在下訂時，可另外加購我們上架的”公主系花環頭飾”與”歐式紅玫瑰捧花”。
+
+方案價已包含試穿後可能的修改費用。
+',
+8500,1);
 
 
 --(2)insert dressCasepic(改由developOnly.java灌入圖片)
@@ -838,17 +854,36 @@ INSERT INTO DRESS_ADD_ON VALUES('WDA'||LPAD(TO_CHAR(dressAddON_seq.NEXTVAL),3,'0
 
 --(6)insert dressOrder
 INSERT INTO DRESS_ORDER (drord_id,membre_id,vender_id,drord_time,drord_pr,drord_depo,drord_ini,drord_pay_st,drord_fin_st,
-dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con)
-VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M001','V003',CURRENT_TIMESTAMP,54500,16350,16350,0,1,0,0,
-'未檢舉','未檢舉','未檢舉','未檢舉','未評價');
+dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con,dr_rev_star)
+VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M004','V007',CURRENT_TIMESTAMP,25800,7740,7740,0,5,0,0,
+'未檢舉','未檢舉','未檢舉','未檢舉','真的很謝謝Diana手工婚紗工作室，從一開始的預約試穿，到試穿，再到最後的歸還禮服，幾乎完全無法挑剔!
+感謝當初朋友的介紹，一個好的婚紗廠商真的能省下不少時間與精力。過來人的經驗，一定要大力推薦給你們！',5);
+
+INSERT INTO DRESS_ORDER (drord_id,membre_id,vender_id,drord_time,drord_pr,drord_depo,drord_ini,drord_pay_st,drord_fin_st,
+dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con,dr_rev_star)
+VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M004','V007',CURRENT_TIMESTAMP,35180,10554,10554,0,5,0,0,
+'未檢舉','未檢舉','未檢舉','未檢舉','趨近於完美的租賃體驗，從頭到尾廠商都很細心的回答任何問題，時間上也都很準時，大力給推!',5);
+
+INSERT INTO DRESS_ORDER (drord_id,membre_id,vender_id,drord_time,drord_pr,drord_depo,drord_ini,drord_pay_st,drord_fin_st,
+dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con,dr_rev_star)
+VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M005','V006',CURRENT_TIMESTAMP,6600,1980,1980,0,5,0,0,
+'未檢舉','未檢舉','未檢舉','未檢舉','這次租賃的是男士西裝，不得不說英倫紳士真的是第一首選！假設重來一次，我一定還是會選這間廠商。',5);
+
 
 --(7)insert orderDetail
-INSERT INTO DRESS_ORDER_DETAIL VALUES('WDD'||LPAD(TO_CHAR(dressDetail_seq.NEXTVAL),3,'0'),'WDO001','WDC001',0,35800);
-INSERT INTO DRESS_ORDER_DETAIL VALUES('WDD'||LPAD(TO_CHAR(dressDetail_seq.NEXTVAL),3,'0'),'WDO001','WDC003',0,18700);
+--第一筆訂單只有一個訂單明細
+INSERT INTO DRESS_ORDER_DETAIL VALUES('WDD'||LPAD(TO_CHAR(dressDetail_seq.NEXTVAL),3,'0'),'WDO001','WDC004',0,25800);
+--第二筆訂單有兩個訂單明細
+INSERT INTO DRESS_ORDER_DETAIL VALUES('WDD'||LPAD(TO_CHAR(dressDetail_seq.NEXTVAL),3,'0'),'WDO002','WDC004',0,23880);
+INSERT INTO DRESS_ORDER_DETAIL VALUES('WDD'||LPAD(TO_CHAR(dressDetail_seq.NEXTVAL),3,'0'),'WDO002','WDC006',0,11300);
+--第三筆訂單只有一個訂單明細
+INSERT INTO DRESS_ORDER_DETAIL VALUES('WDD'||LPAD(TO_CHAR(dressDetail_seq.NEXTVAL),3,'0'),'WDO003','WDC002',0,6600);
 
 --(8)insert dressAddOrder
-INSERT INTO DRESS_ADD_ORDER VALUES('WDA001','WDD001');
-INSERT INTO DRESS_ADD_ORDER VALUES('WDA003','WDD002');
+INSERT INTO DRESS_ADD_ORDER VALUES('WDA005','WDD001');
+INSERT INTO DRESS_ADD_ORDER VALUES('WDA006','WDD002');
+INSERT INTO DRESS_ADD_ORDER VALUES('WDA005','WDD003');
+INSERT INTO DRESS_ADD_ORDER VALUES('WDA009','WDD004');
 
 --婚紗假資料結束
 --婚攝假資料開始
