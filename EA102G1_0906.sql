@@ -856,7 +856,7 @@ INSERT INTO DRESS_ADD_ON VALUES('WDA'||LPAD(TO_CHAR(dressAddON_seq.NEXTVAL),3,'0
 INSERT INTO DRESS_ORDER (drord_id,membre_id,vender_id,drord_time,drord_pr,drord_depo,drord_ini,drord_pay_st,drord_fin_st,
 dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con,dr_rev_star)
 VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M004','V007',CURRENT_TIMESTAMP,25800,7740,7740,0,5,0,0,
-'未檢舉','未檢舉','未檢舉','未檢舉','真的很謝謝Diana手工婚紗工作室，從一開始的預約試穿，到試穿，再到最後的歸還禮服，幾乎完全無法挑剔!
+'未檢舉','未檢舉','未檢舉','未檢舉','真的很謝謝這間廠商，從一開始的預約試穿，到試穿，再到最後的歸還禮服，幾乎完全無法挑剔!
 感謝當初朋友的介紹，一個好的婚紗廠商真的能省下不少時間與精力。過來人的經驗，一定要大力推薦給你們！',5);
 
 INSERT INTO DRESS_ORDER (drord_id,membre_id,vender_id,drord_time,drord_pr,drord_depo,drord_ini,drord_pay_st,drord_fin_st,
