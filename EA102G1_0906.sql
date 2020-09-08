@@ -869,6 +869,21 @@ dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con,d
 VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M005','V006',CURRENT_TIMESTAMP,6600,1980,1980,0,5,0,0,
 '未檢舉','未檢舉','未檢舉','未檢舉','這次租賃的是男士西裝，不得不說英倫紳士真的是第一首選！假設重來一次，我一定還是會選這間廠商。',5);
 
+--0908更新：新增三筆假資料
+INSERT INTO DRESS_ORDER (drord_id,membre_id,vender_id,drord_time,drord_pr,drord_depo,drord_ini,drord_pay_st,drord_fin_st,
+dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con,dr_rev_star)
+VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M004','V003',CURRENT_TIMESTAMP,18000,5400,5400,0,5,0,0,
+'未檢舉','未檢舉','未檢舉','未檢舉','這次真的很開心，沒想到一切的租賃過程都是這麼順利，跟廠商之間的一切溝通都蠻不錯的。',5);
+
+INSERT INTO DRESS_ORDER (drord_id,membre_id,vender_id,drord_time,drord_pr,drord_depo,drord_ini,drord_pay_st,drord_fin_st,
+dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con,dr_rev_star)
+VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M004','V005',CURRENT_TIMESTAMP,35000,10500,10500,0,5,0,0,
+'未檢舉','未檢舉','未檢舉','未檢舉','當初透過朋友的介紹，發現這間超棒的廠商，從頭到尾的服務態度都非常好，沒有收了錢就態度大轉變的情況。',5);
+
+INSERT INTO DRESS_ORDER (drord_id,membre_id,vender_id,drord_time,drord_pr,drord_depo,drord_ini,drord_pay_st,drord_fin_st,
+dr_mrep_st,dr_vrep_st,dr_mrep_de,dr_vrep_de,dr_mrep_res,dr_vrep_res,dr_rev_con,dr_rev_star)
+VALUES('WDO'||LPAD(TO_CHAR(dressOrder_seq.NEXTVAL),3,'0'),'M006','V009',CURRENT_TIMESTAMP,15000,4500,4500,0,5,0,0,
+'未檢舉','未檢舉','未檢舉','未檢舉','現在中式傳統旗袍的婚紗工作室其實不多，我們找了很久才找到這間工作室，但非常值回票價！',5);
 
 --(7)insert orderDetail
 --第一筆訂單只有一個訂單明細
