@@ -1335,15 +1335,15 @@ INSERT INTO FORUM(FORUM_ID, MEMBRE_ID, FORUM_CLASS,
 FORUM_TITLE, FORUM_CONTENT, FORUM_ADDTIME)
 VALUES ('F'|| LPAD(TO_CHAR(FORUM_SEQ.NEXTVAL),3,'0'), 'M004', '交流提問',
 '終於來到挑片這一天了！視覺流感婚紗攝影',
-'終於來到這一天
+'今天來挑片除了讓我們獨自慢慢的挑，沒想到還有可樂可以喝啊。
 
-因為沒有很認真在減肥
+要從200張挑出42張真的好難啊⋯
 
-所以很怕出來的成果會胖胖
+回想起拍照就只拍了一天，沒想到這樣拍出來也有10個系列之多。每種都都優秀的作品。真的也是要謝謝攝影師Dragon，很多照片都還沒修就已經很美了。所以更增加了我們挑選的難度呀。很多張我們倆個真的是掙扎再掙扎，看了又看、比了又比，才辦法狠下心來。
 
-還好成品非常讚
+真的超級期待下次看修片後的照片～～
 
-看完都要心花怒放了', SYSDATE);
+(JUDY婚紗)找Acho副總婉貞就對了！！', SYSDATE);
 
 INSERT INTO FORUM(FORUM_ID, MEMBRE_ID, FORUM_CLASS,
 FORUM_TITLE, FORUM_CONTENT, FORUM_ADDTIME)
