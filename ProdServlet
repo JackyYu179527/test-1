@@ -198,9 +198,9 @@ public class ProdServlet extends HttpServlet {
 					price = 0;
 					errors.add("價格請輸入數字");
 				}
-			}
-			if (price<= 0) {
-				errors.add("價格須大於0");
+				if (price<= 0) {
+					errors.add("價格須大於0");
+				}
 			}
 			String qtyStr = request.getParameter("prod_qty");
 			Integer prod_qty = null;
@@ -213,10 +213,10 @@ public class ProdServlet extends HttpServlet {
 					prod_qty = 0;
 					errors.add("數量請輸入數字");
 				}
+				if (prod_qty <=0) {
+					errors.add("數量須大於0");
+				}
 			} 
-			if (prod_qty <=0) {
-				errors.add("數量須大於0");
-			}
 			String prod_status = "1";
 			long time = System.currentTimeMillis();
 			java.sql.Timestamp sale_time = new java.sql.Timestamp(time);
