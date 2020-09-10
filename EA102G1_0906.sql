@@ -652,18 +652,18 @@ insert into membre(membre_id, mem_name, sex, address, phone, email, status, comp
 ('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), 'Zenitsu', '男', '日本大阪', '091233211', 'Zenitsu@gmail.com', '0', 'Zenitsu@gmail.com', 'Zenitsu', sysdate);
 
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪小玲', '女', '台北信義區', '0911222333', 'ling@gamil.com', '0', 'ling', 'ling', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪小玲', '女', '台北信義區', '0911222333', 'ling@gmail.com', '0', 'ling', 'ling', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪大明', '男', '台中向上路', '0800000000', 'smonkey@gamil.com', '0', 'smonkey', 'smonkey', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪大明', '男', '台中向上路', '0800000000', 'smonkey@gmail.com', '0', 'smonkey', 'smonkey', sysdate);
 
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林朝章', '男', '新北板橋區', '0912345678', 'mingdow@gamil.com', '0', 'mingdow', 'mingdow', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林朝章', '男', '新北板橋區', '0912345678', 'mingdow@gmail.com', '0', 'mingdow', 'mingdow', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '程虹喬', '女', '台北信義區', '0921987654', 'hongchiao@gamil.com', '0', 'hongchiao', 'hongchiao', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '程虹喬', '女', '台北信義區', '0921987654', 'hongchiao@gmail.com', '0', 'hongchiao', 'hongchiao', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林書宏', '男', '台中北區', '0800010000', 'shuhong@gamil.com', '0', 'shuhong', 'shuhong', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林書宏', '男', '台中北區', '0800010000', 'shuhong@gmail.com', '0', 'shuhong', 'shuhong', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '鄭茵聲', '女', '台北信義區', '0911222555', 'yingsheng@gamil.com', '0', 'yingsheng', 'yingsheng', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '鄭茵聲', '女', '台北信義區', '0911222555', 'yingsheng@gmail.com', '0', 'yingsheng', 'yingsheng', sysdate);
 
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time)
 values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '孫語涵', '女', '新北新莊', '0945645720', 'wed0803030@wedphoto.com.tw', '0', 'test4561', 'test456', to_timestamp('23-NOV-19 06.51.12.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
