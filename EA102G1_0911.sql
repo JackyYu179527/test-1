@@ -975,7 +975,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?單機 平面',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天𝄞單機 平面',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
 ?儀式前半小時或一小時開拍，最早為8點
@@ -990,7 +990,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?單機 錄影',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天♪單機 錄影',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
 ?儀式前半小時或一小時開拍，最早為8點
@@ -1005,7 +1005,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?雙機 一平一錄',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天♫雙機 一平一錄',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
 ?儀式前半小時或一小時開拍，最早為8點
@@ -1023,7 +1023,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?雙機 錄影',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天♬雙機 錄影',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
 ?儀式前半小時或一小時開拍，最早為8點
@@ -1038,7 +1038,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?三機 一平雙錄',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天𝄢三機 一平雙錄',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
 ?儀式前半小時或一小時開拍，最早為8點
@@ -1056,7 +1056,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單宴客/單儀式?',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單宴客/單儀式✔',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1071,7 +1071,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單宴客/單
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單儀式+午宴?',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單儀式+午宴✔',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1086,7 +1086,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單儀式+午
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單儀式+晚宴?',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單儀式+晚宴✔',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1101,7 +1101,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單儀式+晚
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 雙儀式+午宴?',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 雙儀式+午宴✔',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1116,7 +1116,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 雙儀式+午
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 雙儀式+晚宴?',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 雙儀式+晚宴✔',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
