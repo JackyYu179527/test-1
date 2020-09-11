@@ -701,15 +701,15 @@ INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MA
 VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '囍洋洋結婚禮車','新北市中和區廣福路53巷16號', '02-8245-2566', '蔡副理', 'love4ever@happy.com.tw', 1, 1,'love4ever', 'love4ever', 0, CURRENT_TIMESTAMP, 30, 100 );
 
 INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '奔跑少年影像事務所', '新北市板橋區民生路二段240巷23號', '02-7728-3610#1754', '吳小姐', 'Runningboy@wedphoto.com.tw', 1, 1, 'test1231', 'test123', 0, sysdate, 20, 91);
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '奔跑少年影像事務所', '新北市板橋區民生路二段240巷23號', '02-7728-3610#1754', '吳小姐', 'Runningboy@wedphoto.com.tw', 1, 1, 'test1231', 'test123', 0, to_date('2019-11-30 10:31:22','yyyy-mm-dd hh24:mi:ss'), 20, 91);
 INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '無風格映像紀錄','台南市東區裕農路121巷2弄7號2F', '02-7728-3610#8208', '戴小姐', 'nostyle99@wedphoto.com.tw', 1, 1,'test1232', 'test123', 0, sysdate, 21, 84);
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '無風格映像紀錄','台南市東區裕農路121巷2弄7號2F', '02-7728-3610#8208', '戴小姐', 'nostyle99@wedphoto.com.tw', 1, 1,'test1232', 'test123', 0, to_date('2020-01-21 13:51:31','yyyy-mm-dd hh24:mi:ss'), 21, 84);
 INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'Pon-Pon Photography','台中市南屯區永春路60-7號', '02-7728-3610#9173', '楊先生', 'ponponph@wedphoto.com.tw', 1, 1,'test1233', 'test123', 0, sysdate, 12, 49);
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'Pon-Pon Photography','台中市南屯區永春路60-7號', '02-7728-3610#9173', '楊先生', 'ponponph@wedphoto.com.tw', 1, 1,'test1233', 'test123', 0, to_date('2020-02-21 11:46:07','yyyy-mm-dd hh24:mi:ss'), 12, 49);
 INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'J-Love 婚禮攝影團隊','台北市中山區復興北路290號16樓', '02-7728-3610#5726', '陳先生', 'jlove@wedphoto.com.tw', 1, 1, 'test1234', 'test123', 0, sysdate, 9, 37);
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'J-Love 婚禮攝影團隊','台北市中山區復興北路290號16樓', '02-7728-3610#5726', '陳先生', 'jlove@wedphoto.com.tw', 1, 1, 'test1234', 'test123', 0, to_date('2020-04-08 20:22:13','yyyy-mm-dd hh24:mi:ss'), 9, 37);
 INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'RT 映像工作室','台中市大雅區德勝路493號-7號', '02-7728-3610#1996', '康先生', 'rtRichie@wedphoto.com.tw', 1, 1, 'test1235', 'test123', 0, sysdate, 17, 66);
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'RT 映像工作室','台中市大雅區德勝路493號-7號', '02-7728-3610#1996', '康先生', 'rtRichie@wedphoto.com.tw', 1, 1, 'test1235', 'test123', 0, to_date('2020-06-03 09:05:08','yyyy-mm-dd hh24:mi:ss'), 17, 66);
 
 
 -- 新增「禮車」資料
@@ -919,7 +919,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 【注意事項】
 ●若開拍時間早於8:00，晚於22:00將酌收加時費。
 ●台北市免收車馬費(除文山區、北投區)
-●其餘外縣市車馬費實報實銷', 18000, sysdate);
+●其餘外縣市車馬費實報實銷', 18000, to_date('2019-12-21 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -932,7 +932,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 【注意事項】
 ●若開拍時間早於8:00，晚於22:00將酌收加時費。
 ●台北市免收車馬費(除文山區、北投區)
-●其餘外縣市車馬費實報實銷 ', 28000, sysdate);
+●其餘外縣市車馬費實報實銷 ', 28000, to_date('2019-12-21 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -951,7 +951,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 
 1.可以安排新郎/新娘雙兩地拍攝。
 2.可拍攝同一時間軸上更多主流程外的畫面。
-3.儀式過程擁有更多鏡位讓畫面更流暢豐富。', 32000, sysdate);
+3.儀式過程擁有更多鏡位讓畫面更流暢豐富。', 32000, to_date('2019-12-21 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -971,7 +971,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 
 1.可以安排新郎/新娘雙兩地拍攝。
 2.可拍攝同一時間軸上更多主流程外的畫面。
-3.儀式過程擁有更多鏡位讓畫面更流暢豐富。', 42000, sysdate);
+3.儀式過程擁有更多鏡位讓畫面更流暢豐富。', 42000, to_date('2019-12-21 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -986,7 +986,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 ?視內容400-1500張修圖照片(調色、對比、亮度，不包含去背、修臉、修瘦等工作)
 ?時間允許可拍攝類婚紗
 ?成品:檔案全贈(視容量需自備USB或加購)(會先把閉眼、曝光等NG照先刪掉，其餘拍攝照片全贈)
-?木盒*1+相本*1+USB*1 ', 21000, sysdate);
+?木盒*1+相本*1+USB*1 ', 21000, to_date('2020-02-11 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1001,7 +1001,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 ?精華版影片*1
 ?完整版影片*1
 ?成品:檔案全贈(視容量需自備USB或加購)
-?木盒*1+桌框*1+USB*1 ', 26000, sysdate);
+?木盒*1+桌框*1+USB*1 ', 26000, to_date('2020-02-11 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1019,7 +1019,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 ?精華版影片*1 (3-6分鐘-視內容調整)
 ?完整版影片*1 (1小時-2小時-視內容調整)
 ?成品:影片全贈(影片檔案較大需自備USB或加購)
-?木盒*1+相本*1+USB*1 ', 37000, sysdate);
+?木盒*1+相本*1+USB*1 ', 37000, to_date('2020-02-11 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1034,7 +1034,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 ?精華版影片*1
 ?完整版影片*1
 ?成品:檔案全贈(視容量需自備USB或加購)
-?木盒*1+桌框*1+USB*1 ', 34000, sysdate);
+?木盒*1+桌框*1+USB*1 ', 34000, to_date('2020-02-11 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1052,7 +1052,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』�
 ?精華版影片*1 (3-6分鐘-視內容調整)
 ?完整版影片*1 (1小時-2小時-視內容調整)
 ?成品:影片全贈(影片檔案較大需自備USB或加購)
-?木盒*1+相本*1+USB*1 ', 45000, sysdate);
+?木盒*1+相本*1+USB*1 ', 45000, to_date('2020-02-11 13:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1065,8 +1065,9 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單宴客/單
 
 單宴客/單儀式 $12800
 
-成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-12800,sysdate);
+成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。
+都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
+12800,to_date('2020-03-17 15:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1079,8 +1080,9 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單儀式+午
 
 單儀式（訂婚/迎娶）+午宴 $15800
 
-成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-15800, sysdate);
+成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。
+都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
+15800, to_date('2020-03-17 15:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1093,8 +1095,9 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單儀式+晚
 
 單儀式（訂婚/迎娶）+晚宴 $16800
 
-成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-16800, sysdate);
+成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。
+都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
+16800, to_date('2020-03-17 15:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1107,8 +1110,9 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 雙儀式+午
 
 雙儀式（訂婚+迎娶）+午宴 $17800
 
-成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-17800, sysdate);
+成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。
+都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
+17800, to_date('2020-03-17 15:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -1121,23 +1125,24 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 雙儀式+晚
 
 雙儀式（訂婚+迎娶）+晚宴 $18800 
 
-成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-18800, sysdate);
+成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。
+都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
+18800, to_date('2020-03-17 15:51:31','yyyy-mm-dd hh24:mi:ss'));
 
 /*****************************************
 *      INSERT「訂單」假資料  ORDER          *
 *****************************************/
 --WP_ORDER
 INSERT INTO wed_photo_order(wed_photo_order_no,membre_id,vender_id,filming_time,wed_photo_odtime,order_explain)
-VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M010','V011',sysdate,
+VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M010','V011',to_date('2020-09-17 20:20:20','yyyy-mm-dd hh24:mi:ss'),
 sysdate,'訂單備註test1');
 
 INSERT INTO wed_photo_order(wed_photo_order_no,membre_id,vender_id,filming_time,wed_photo_odtime,order_explain)
-VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M004','V011',sysdate,
+VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M004','V011',to_date('2020-02-18 20:20:20','yyyy-mm-dd hh24:mi:ss'),
 sysdate,'訂單備註test2');
 
 INSERT INTO wed_photo_order(wed_photo_order_no,membre_id,vender_id,filming_time,wed_photo_odtime,order_explain)
-VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M009','V012',sysdate,
+VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M009','V012',to_date('2020-02-19 20:20:20','yyyy-mm-dd hh24:mi:ss'),
 sysdate,'訂單備註test3');
 
 --WP_ORDERDETAIL
