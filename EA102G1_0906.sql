@@ -1,4 +1,3 @@
-
 -- =============================================    
 -- DROP TABLE
 -- ============================================= 
@@ -652,65 +651,65 @@ insert into membre(membre_id, mem_name, sex, address, phone, email, status, comp
 ('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), 'Zenitsu', '男', '日本大阪', '091233211', 'Zenitsu@gmail.com', '0', 'Zenitsu@gmail.com', 'Zenitsu', sysdate);
 
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪小玲', '女', '台北信義區', '0911222333', 'ling@gmail.com', '0', 'ling', 'ling', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪小玲', '女', '台北信義區', '0911222333', 'ling@gamil.com', '0', 'ling', 'ling', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪大明', '男', '台中向上路', '0800000000', 'smonkey@gmail.com', '0', 'smonkey', 'smonkey', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '洪大明', '男', '台中向上路', '0800000000', 'smonkey@gamil.com', '0', 'smonkey', 'smonkey', sysdate);
 
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林朝章', '男', '新北板橋區', '0912345678', 'mingdow@gmail.com', '0', 'mingdow', 'mingdow', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林朝章', '男', '新北板橋區', '0912345678', 'mingdow@gamil.com', '0', 'mingdow', 'mingdow', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '程虹喬', '女', '台北信義區', '0921987654', 'hongchiao@gmail.com', '0', 'hongchiao', 'hongchiao', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '程虹喬', '女', '台北信義區', '0921987654', 'hongchiao@gamil.com', '0', 'hongchiao', 'hongchiao', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林書宏', '男', '台中北區', '0800010000', 'shuhong@gmail.com', '0', 'shuhong', 'shuhong', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '林書宏', '男', '台中北區', '0800010000', 'shuhong@gamil.com', '0', 'shuhong', 'shuhong', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time) values
-('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '鄭茵聲', '女', '台北信義區', '0911222555', 'yingsheng@gmail.com', '0', 'yingsheng', 'yingsheng', sysdate);
+('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '鄭茵聲', '女', '台北信義區', '0911222555', 'yingsheng@gamil.com', '0', 'yingsheng', 'yingsheng', sysdate);
 
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time)
-values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '孫語涵', '女', '新北新莊', '0945645720', 'wed0803030@wedphoto.com.tw', '0', 'test4561', 'test456', to_timestamp('23-NOV-19 06.51.12.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '孫語涵', '女', '新北新莊', '0945645720', 'wed0803030@wedphoto.com.tw', '0', 'test4561', 'test456', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time)
-values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '安子晴', '女', '台中北區', '0989120520', 'wed0803031@wedphoto.com.tw', '0', 'test4562', 'test456', to_timestamp('17-DEC-19 12.51.31.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '安子晴', '女', '台中北區', '0989120520', 'wed0803031@wedphoto.com.tw', '0', 'test4562', 'test456', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time)
-values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '趙苡薰', '女', '桃園蘆竹', '0948521321', 'wed0803032@wedphoto.com.tw', '0', 'test4564', 'test456', to_timestamp('7-MAR-20 09.37.45.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '趙苡薰', '女', '桃園蘆竹', '0948521321', 'wed0803032@wedphoto.com.tw', '0', 'test4564', 'test456', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time)
-values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '胡毓昕', '女', '高雄三民', '0921447823', 'wed0803032@wedphoto.com.tw', '0', 'test4565', 'test456', to_timestamp('7-MAR-20 12.03.22.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'));
+values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '胡毓昕', '女', '高雄三民', '0921447823', 'wed0803032@wedphoto.com.tw', '0', 'test4565', 'test456', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time)
-values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '田宥潔', '女', '台南中西', '0930678921', 'wed0803032@wedphoto.com.tw', '0', 'test4566', 'test456', to_timestamp('7-MAR-20 07.27.16.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '田宥潔', '女', '台南中西', '0930678921', 'wed0803032@wedphoto.com.tw', '0', 'test4566', 'test456', sysdate);
 
 --新增「廠商」資料
 --1、2、4、8、10是禮車
 --3、5、6、7、9是婚紗
 --11~15是婚攝
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '1314一生一世專業禮車租借', '台北市信義區市府路45號', '02-664-9917', '黃穎筑', 'donna22@bosco.biz', 1, 1, EMPTY_BLOB(), 'century1314', 'qweqwe', 0, CURRENT_TIMESTAMP, 30, 130);
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '幸福久久結婚禮車','桃園市大園區三民路二段95號', '0973-318-520', '李經理', 'happiness99@happy.com.tw', 1, 1, EMPTY_BLOB(),'happiness99', '1qaz1qaz', 0, CURRENT_TIMESTAMP, 20, 66 );
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC ,VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'),'Mr.Warmth工作室','高雄市前鎮區幸福一路300號', '0930-653-273', '張經理', 'warmth@gmail.com', 1, 1,EMPTY_BLOB(), 'warmth', 'warmth', 0, CURRENT_TIMESTAMP, 4, 19 );
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '123結婚禮車','台南市新興路278巷(近台南火車站)', '06-269-9852', '吳先生', '123carrental@cr.com.tw', 1, 1, EMPTY_BLOB(),'cr123', 'cr123', 0, CURRENT_TIMESTAMP, 55, 200 );
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE,VEN_EVIDENCE_PIC , VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '第五大道工作室','桃園市平鎮區中央路100號', '0919-138-520', '郭專員', 'fifthAvenue@gmail.com', 1, 1,EMPTY_BLOB(), 'fifthAvenue', 'fifthAvenue', 0, CURRENT_TIMESTAMP, 4, 18 );
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC ,VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '西服紳士','台中市台灣大道四段一號', '0966-754-663', '王專員', 'gentleSuit@gmail.com', 1, 1,EMPTY_BLOB(), 'gentleSuit', 'gentleSuit', 0, CURRENT_TIMESTAMP, 2, 9 );
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC ,VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'),'Diana手工婚紗', '台北市信義區基隆路三段一號', '02-2571-2175', '林專員', 'dianaWed@gmail.com', 1, 1,EMPTY_BLOB(),'dianaWed', 'dianaWed', 0, CURRENT_TIMESTAMP, 5, 23);
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'pro專業結婚禮車','台中市市政北七路95號', '0961-314-520', '陳沛羽', 'wedpro9487@wed.com.tw', 1, 1, EMPTY_BLOB(),'wedpro9487', 'wedpro9487', 0, CURRENT_TIMESTAMP, 25, 70 );
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC ,VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '中式旗袍工作室','台南市北門路五段一號', '0921-678-142', '陳經理', 'chinWed@gmail.com', 1, 1, EMPTY_BLOB(),'chinWed', 'chinWed', 0, CURRENT_TIMESTAMP, 3, 13 );
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '囍洋洋結婚禮車','新北市中和區廣福路53巷16號', '02-8245-2566', '蔡副理', 'love4ever@happy.com.tw', 1, 1, EMPTY_BLOB(),'love4ever', 'love4ever', 0, CURRENT_TIMESTAMP, 30, 100 );
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '1314一生一世專業禮車租借', '台北市信義區市府路45號', '02-664-9917', '黃穎筑', 'donna22@bosco.biz', 1, 1,'century1314', 'qweqwe', 0, CURRENT_TIMESTAMP, 30, 130);
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '幸福久久結婚禮車','桃園市大園區三民路二段95號', '0973-318-520', '李經理', 'happiness99@happy.com.tw', 1, 1,'happiness99', '1qaz1qaz', 0, CURRENT_TIMESTAMP, 20, 66 );
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'),'Mr.Warmth工作室','高雄市前鎮區幸福一路300號', '0930-653-273', '張經理', 'warmth@gmail.com', 1, 1, 'warmth', 'warmth', 0, CURRENT_TIMESTAMP, 4, 19 );
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '123結婚禮車','台南市新興路278巷(近台南火車站)', '06-269-9852', '吳先生', '123carrental@cr.com.tw', 1, 1,'cr123', 'cr123', 0, CURRENT_TIMESTAMP, 55, 200 );
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '第五大道工作室','桃園市平鎮區中央路100號', '0919-138-520', '郭專員', 'fifthAvenue@gmail.com', 1, 1, 'fifthAvenue', 'fifthAvenue', 0, CURRENT_TIMESTAMP, 4, 18 );
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '西服紳士','台中市台灣大道四段一號', '0966-754-663', '王專員', 'gentleSuit@gmail.com', 1, 1, 'gentleSuit', 'gentleSuit', 0, CURRENT_TIMESTAMP, 2, 9 );
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'),'Diana手工婚紗', '台北市信義區基隆路三段一號', '02-2571-2175', '林專員', 'dianaWed@gmail.com', 1, 1,'dianaWed', 'dianaWed', 0, CURRENT_TIMESTAMP, 5, 23);
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'pro專業結婚禮車','台中市市政北七路95號', '0961-314-520', '陳沛羽', 'wedpro9487@wed.com.tw', 1, 1,'wedpro9487', 'wedpro9487', 0, CURRENT_TIMESTAMP, 25, 70 );
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '中式旗袍工作室','台南市北門路五段一號', '0921-678-142', '陳經理', 'chinWed@gmail.com', 1, 1,'chinWed', 'chinWed', 0, CURRENT_TIMESTAMP, 3, 13 );
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '囍洋洋結婚禮車','新北市中和區廣福路53巷16號', '02-8245-2566', '蔡副理', 'love4ever@happy.com.tw', 1, 1,'love4ever', 'love4ever', 0, CURRENT_TIMESTAMP, 30, 100 );
 
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '奔跑少年影像事務所', '新北市板橋區民生路二段240巷23號', '02-7728-3610#1754', '吳小姐', 'Runningboy@wedphoto.com.tw', 1, 1, EMPTY_BLOB(), 'test1231', 'test123', 0, to_timestamp('30-NOV-19 10.31.22.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'), 20, 91);
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '無風格映像紀錄','台南市東區裕農路121巷2弄7號2F', '02-7728-3610#8208', '戴小姐', 'nostyle99@wedphoto.com.tw', 1, 1, EMPTY_BLOB(),'test1232', 'test123', 0, to_timestamp('21-JAN-20 01.51.31.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'), 21, 84);
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'Pon-Pon Photography','台中市南屯區永春路60-7號', '02-7728-3610#9173', '楊先生', 'ponponph@wedphoto.com.tw', 1, 1, EMPTY_BLOB(),'test1233', 'test123', 0, to_timestamp('08-FEB-20 11.46.07.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'), 12, 49);
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'J-Love 婚禮攝影團隊','台北市中山區復興北路290號16樓', '02-7728-3610#5726', '陳先生', 'jlove@wedphoto.com.tw', 1, 1, EMPTY_BLOB(),'test1234', 'test123', 0, to_timestamp('12-APR-20 08.22.13.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'), 9, 37);
-INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_EVIDENCE_PIC, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'RT 映像工作室','台中市大雅區德勝路493號-7號', '02-7728-3610#1996', '康先生', 'rtRichie@wedphoto.com.tw', 1, 1, EMPTY_BLOB(),'test1235', 'test123', 0, to_timestamp('03-JUN-20 09.15.08.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'), 17, 66);
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '奔跑少年影像事務所', '新北市板橋區民生路二段240巷23號', '02-7728-3610#1754', '吳小姐', 'Runningboy@wedphoto.com.tw', 1, 1, 'test1231', 'test123', 0, sysdate, 20, 91);
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '無風格映像紀錄','台南市東區裕農路121巷2弄7號2F', '02-7728-3610#8208', '戴小姐', 'nostyle99@wedphoto.com.tw', 1, 1,'test1232', 'test123', 0, sysdate, 21, 84);
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'Pon-Pon Photography','台中市南屯區永春路60-7號', '02-7728-3610#9173', '楊先生', 'ponponph@wedphoto.com.tw', 1, 1,'test1233', 'test123', 0, sysdate, 12, 49);
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'J-Love 婚禮攝影團隊','台北市中山區復興北路290號16樓', '02-7728-3610#5726', '陳先生', 'jlove@wedphoto.com.tw', 1, 1, 'test1234', 'test123', 0, sysdate, 9, 37);
+INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'RT 映像工作室','台中市大雅區德勝路493號-7號', '02-7728-3610#1996', '康先生', 'rtRichie@wedphoto.com.tw', 1, 1, 'test1235', 'test123', 0, sysdate, 17, 66);
 
 
 -- 新增「禮車」資料
@@ -825,7 +824,6 @@ INSERT INTO DRESS_CASE VALUES
 ',
 8500,1);
 
-
 --(2)insert dressCasepic(改由developOnly.java灌入圖片)
 
 --(3)insert dressCaseTrack
@@ -921,7 +919,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 【注意事項】
 ●若開拍時間早於8:00，晚於22:00將酌收加時費。
 ●台北市免收車馬費(除文山區、北投區)
-●其餘外縣市車馬費實報實銷', 18000, to_timestamp('03-DEC-19 11.41.31.020000000 AM','DD-MON-RR HH.MI.SSXFF AM'));
+●其餘外縣市車馬費實報實銷', 18000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -934,7 +932,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 【注意事項】
 ●若開拍時間早於8:00，晚於22:00將酌收加時費。
 ●台北市免收車馬費(除文山區、北投區)
-●其餘外縣市車馬費實報實銷 ', 28000, to_timestamp('03-DEC-19 11.41.31.280000000 AM','DD-MON-RR HH.MI.SSXFF AM'));
+●其餘外縣市車馬費實報實銷 ', 28000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -953,7 +951,7 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 
 1.可以安排新郎/新娘雙兩地拍攝。
 2.可拍攝同一時間軸上更多主流程外的畫面。
-3.儀式過程擁有更多鏡位讓畫面更流暢豐富。', 32000, to_timestamp('03-DEC-19 11.41.31.420000000 AM','DD-MON-RR HH.MI.SSXFF AM'));
+3.儀式過程擁有更多鏡位讓畫面更流暢豐富。', 32000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
@@ -973,92 +971,92 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V011', '【奔跑少年】雙�
 
 1.可以安排新郎/新娘雙兩地拍攝。
 2.可拍攝同一時間軸上更多主流程外的畫面。
-3.儀式過程擁有更多鏡位讓畫面更流暢豐富。', 42000, to_timestamp('03-DEC-19 11.41.31.530000000 AM','DD-MON-RR HH.MI.SSXFF AM'));
+3.儀式過程擁有更多鏡位讓畫面更流暢豐富。', 42000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天𝄞單機 平面',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?單機 平面',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
-➨儀式前半小時或一小時開拍，最早為8點
+?儀式前半小時或一小時開拍，最早為8點
 (早上8點前抵達拍攝，一位攝影師需酌收費用 一小時NT$1000)
-➨午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
+?午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
 
 成品
-➨視內容400-1500張修圖照片(調色、對比、亮度，不包含去背、修臉、修瘦等工作)
-➨時間允許可拍攝類婚紗
-➨成品:檔案全贈(視容量需自備USB或加購)(會先把閉眼、曝光等NG照先刪掉，其餘拍攝照片全贈)
-➨木盒*1+相本*1+USB*1 ', 21000, to_timestamp('25-JAN-20 01.51.33.210000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+?視內容400-1500張修圖照片(調色、對比、亮度，不包含去背、修臉、修瘦等工作)
+?時間允許可拍攝類婚紗
+?成品:檔案全贈(視容量需自備USB或加購)(會先把閉眼、曝光等NG照先刪掉，其餘拍攝照片全贈)
+?木盒*1+相本*1+USB*1 ', 21000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天♪單機 錄影',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?單機 錄影',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
-➨儀式前半小時或一小時開拍，最早為8點
+?儀式前半小時或一小時開拍，最早為8點
 (早上8點前抵達拍攝，一位攝影師需酌收費用 一小時NT$1000)
-➨午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
+?午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
 
 成品
-➨精華版影片*1
-➨完整版影片*1
-➨成品:檔案全贈(視容量需自備USB或加購)
-➨木盒*1+桌框*1+USB*1 ', 26000, to_timestamp('25-JAN-20 01.51.33.330000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+?精華版影片*1
+?完整版影片*1
+?成品:檔案全贈(視容量需自備USB或加購)
+?木盒*1+桌框*1+USB*1 ', 26000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天♫雙機 一平一錄',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?雙機 一平一錄',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
-➨儀式前半小時或一小時開拍，最早為8點
+?儀式前半小時或一小時開拍，最早為8點
 (早上8點前抵達拍攝，一位攝影師需酌收費用 一小時NT$1000)
-➨午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
+?午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
 
 成品
-➨視內容400-1500張修圖照片(調色、對比、亮度，不包含去背、修臉、修瘦等工作)
-➨時間允許可拍攝類婚紗
-➨成品:照片全贈(視容量需自備USB或加購)(會先把閉眼、曝光等NG照先刪掉，其餘拍攝照片全贈)
-➨精華版影片*1 (3-6分鐘-視內容調整)
-➨完整版影片*1 (1小時-2小時-視內容調整)
-➨成品:影片全贈(影片檔案較大需自備USB或加購)
-➨木盒*1+相本*1+USB*1 ', 37000, to_timestamp('25-JAN-20 01.51.33.390000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+?視內容400-1500張修圖照片(調色、對比、亮度，不包含去背、修臉、修瘦等工作)
+?時間允許可拍攝類婚紗
+?成品:照片全贈(視容量需自備USB或加購)(會先把閉眼、曝光等NG照先刪掉，其餘拍攝照片全贈)
+?精華版影片*1 (3-6分鐘-視內容調整)
+?完整版影片*1 (1小時-2小時-視內容調整)
+?成品:影片全贈(影片檔案較大需自備USB或加購)
+?木盒*1+相本*1+USB*1 ', 37000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天♬雙機 錄影',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?雙機 錄影',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
-➨儀式前半小時或一小時開拍，最早為8點
+?儀式前半小時或一小時開拍，最早為8點
 (早上8點前抵達拍攝，一位攝影師需酌收費用 一小時NT$1000)
-➨午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
+?午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
 
 成品
-➨精華版影片*1
-➨完整版影片*1
-➨成品:檔案全贈(視容量需自備USB或加購)
-➨木盒*1+桌框*1+USB*1 ', 34000, to_timestamp('25-JAN-20 01.51.33.450000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+?精華版影片*1
+?完整版影片*1
+?成品:檔案全贈(視容量需自備USB或加購)
+?木盒*1+桌框*1+USB*1 ', 34000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天𝄢三機 一平雙錄',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V012', '『無風格映像』兩天?三機 一平雙錄',
 '午宴：08:00-16:00｜晚宴：17:00-22:00
 
-➨儀式前半小時或一小時開拍，最早為8點
+?儀式前半小時或一小時開拍，最早為8點
 (早上8點前抵達拍攝，一位攝影師需酌收費用 一小時NT$1000)
-➨午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
+?午宴晚於16:00需酌收加時費，晚宴晚於22:00需酌收加時費
 
 成品
-➨視內容400-1500張修圖照片(調色、對比、亮度，不包含去背、修臉、修瘦等工作)
-➨時間允許可拍攝類婚紗
-➨成品:照片全贈(視容量需自備USB或加購)(會先把閉眼、曝光等NG照先刪掉，其餘拍攝照片全贈)
-➨精華版影片*1 (3-6分鐘-視內容調整)
-➨完整版影片*1 (1小時-2小時-視內容調整)
-➨成品:影片全贈(影片檔案較大需自備USB或加購)
-➨木盒*1+相本*1+USB*1 ', 45000, to_timestamp('25-JAN-20 01.51.33.530000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+?視內容400-1500張修圖照片(調色、對比、亮度，不包含去背、修臉、修瘦等工作)
+?時間允許可拍攝類婚紗
+?成品:照片全贈(視容量需自備USB或加購)(會先把閉眼、曝光等NG照先刪掉，其餘拍攝照片全贈)
+?精華版影片*1 (3-6分鐘-視內容調整)
+?完整版影片*1 (1小時-2小時-視內容調整)
+?成品:影片全贈(影片檔案較大需自備USB或加購)
+?木盒*1+相本*1+USB*1 ', 45000, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單宴客/單儀式✔',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單宴客/單儀式?',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1068,11 +1066,11 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單宴客
 單宴客/單儀式 $12800
 
 成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-12800, to_timestamp('15-FEB-20 3.24.31.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+12800,sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單儀式+午宴✔',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單儀式+午宴?',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1082,11 +1080,11 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單儀式
 單儀式（訂婚/迎娶）+午宴 $15800
 
 成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-15800, to_timestamp('15-FEB-20 3.24.31.070000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+15800, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單儀式+晚宴✔',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 單儀式+晚宴?',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1096,11 +1094,11 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 單儀式
 單儀式（訂婚/迎娶）+晚宴 $16800
 
 成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-16800, to_timestamp('15-FEB-20 3.24.31.110000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+16800, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 雙儀式+午宴✔',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 雙儀式+午宴?',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1110,11 +1108,11 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 雙儀式
 雙儀式（訂婚+迎娶）+午宴 $17800
 
 成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-17800, to_timestamp('15-FEB-20 3.24.31.270000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+17800, sysdate);
 
 INSERT INTO wed_photo_case
 (wed_photo_case_no, vender_id, wed_photo_name, wed_photo_intro, wed_photo_price,wed_photo_addtime)
-VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 雙儀式+晚宴✔',
+VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '?Pon Pon? 雙儀式+晚宴?',
 '在相愛的過程裡 你們選擇了用影像記錄當下
 讓我來把這份美好 幫你們好好的保留下來吧~
 
@@ -1124,23 +1122,23 @@ VALUES ('WPC' || lpad(WPC_SEQ.NEXTVAL, 3, '0'), 'V013', '✦Pon Pon✦ 雙儀式
 雙儀式（訂婚+迎娶）+晚宴 $18800 
 
 成品內容：當日儀式/宴客過程記錄檔案收入精美木質USB*1，皮革烙印寫真書一本，約收入80-100張精選。都會拍攝全家福，類婚紗只要在時間可以的情況下都會拍攝！！ ',
-18800, to_timestamp('15-FEB-20 3.24.31.310000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+18800, sysdate);
 
 /*****************************************
 *      INSERT「訂單」假資料  ORDER          *
 *****************************************/
 --WP_ORDER
 INSERT INTO wed_photo_order(wed_photo_order_no,membre_id,vender_id,filming_time,wed_photo_odtime,order_explain)
-VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M010','V011',to_timestamp('20-MAY-20 3.24.31.110000000 PM','DD-MON-RR HH.MI.SSXFF AM'),
-to_timestamp('01-MAY-20 3.24.31.110000000 PM','DD-MON-RR HH.MI.SSXFF AM'),'訂單備註test1');
+VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M010','V011',sysdate,
+sysdate,'訂單備註test1');
 
 INSERT INTO wed_photo_order(wed_photo_order_no,membre_id,vender_id,filming_time,wed_photo_odtime,order_explain)
-VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M004','V011',to_timestamp('20-MAY-20 3.24.31.110000000 PM','DD-MON-RR HH.MI.SSXFF AM'),
-to_timestamp('01-MAY-20 3.24.31.110000000 PM','DD-MON-RR HH.MI.SSXFF AM'),'訂單備註test2');
+VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M004','V011',sysdate,
+sysdate,'訂單備註test2');
 
 INSERT INTO wed_photo_order(wed_photo_order_no,membre_id,vender_id,filming_time,wed_photo_odtime,order_explain)
-VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M009','V012',to_timestamp('20-MAY-20 3.24.31.110000000 PM','DD-MON-RR HH.MI.SSXFF AM'),
-to_timestamp('01-MAY-20 3.24.31.110000000 PM','DD-MON-RR HH.MI.SSXFF AM'),'訂單備註test3');
+VALUES('WPO' || lpad(WPO_SEQ.NEXTVAL, 3, '0'),'M009','V012',sysdate,
+sysdate,'訂單備註test3');
 
 --WP_ORDERDETAIL
 INSERT INTO wed_photo_order_detail(wed_photo_order_no, wed_photo_case_no)VALUES('WPO001','WPC001');
@@ -1213,10 +1211,10 @@ insert into prod_type values('T003', '書籍');
 insert into prod_type values('T004', '3C產品');
 insert into prod_type values('T005', '鞋類');
 insert into prod_type values('T010', '其他');
-insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M002', 'T001', 20000, 2, 'Prada', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
+insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T001', 20000, 2, 'Prada', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T002', 300, 10, '黑色素T', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
-insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M002', 'T003', 350, 2, '休婚', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
-insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M002', 'T004', 3000, 5, 'Airpods', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
+insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T003', 350, 2, '休婚', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
+insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T004', 3000, 5, 'Airpods', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T005', 500, 4, '透氣餅乾鞋', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T005', 600, 4, '帆布鞋', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T005', 700, 4, '小白鞋', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
@@ -1353,15 +1351,15 @@ VALUES ('F'|| LPAD(TO_CHAR(FORUM_SEQ.NEXTVAL),3,'0'), 'M004', '交流提問',
 
 8月初時男方跟我的家人一起吃過飯了，男方家長在飯局上表示：現在年輕人很有自己的想法，想怎麼辦就讓他們去辦。我家人聽完之後也都說：好，就給年輕人自己決定。
 
-之前就跟男友討論過想省下錢去度蜜月，就想要登記而已，一開始跟我媽提她也說好，她會去說服我爸，結果被我爸說 這是我們家的事情😰
+之前就跟男友討論過想省下錢去度蜜月，就想要登記而已，一開始跟我媽提她也說好，她會去說服我爸，結果被我爸說 這是我們家的事情?
 
 結果在雙方吃完飯後我們兩個想過，如果一定要辦的話，最低限度就是一場，想要辦成西式的婚禮（簡化的），就大家吃吃飯開開心心這樣就好，不要一些其餘的儀式。
 
 我就某天晚上試探一下我媽的意思，她聽完整個大怒，說什麼 大餅小餅呢，為什麼你們什麼都要省略呢？？這樣以後吃虧的是你自己 這種話，還說男方怎麼沒有送大鑽鑽的戒指，
 
-我是覺得沒有必要要有哪些繁文縟節，也沒有必要買一個鑽戒放在家裡積灰塵。我媽還說要訂結兩場，沒有人沒訂婚就結婚的。我就在想說 雙方都在北部，又不是一方在南部才需要辦兩場😞唉.....
+我是覺得沒有必要要有哪些繁文縟節，也沒有必要買一個鑽戒放在家裡積灰塵。我媽還說要訂結兩場，沒有人沒訂婚就結婚的。我就在想說 雙方都在北部，又不是一方在南部才需要辦兩場?唉.....
 
-感覺在餐桌上說的都只是表面，為什麼不直說只有日期讓你們自己決定這種話，真的覺得頭很痛😫', SYSDATE);
+感覺在餐桌上說的都只是表面，為什麼不直說只有日期讓你們自己決定這種話，真的覺得頭很痛?', SYSDATE);
 
 INSERT INTO FORUM(FORUM_ID, MEMBRE_ID, FORUM_CLASS,
 FORUM_TITLE, FORUM_CONTENT, FORUM_ADDTIME)
@@ -1456,12 +1454,12 @@ VALUES ('MES'|| LPAD(TO_CHAR(FORUM_MES_SEQ.NEXTVAL),3,'0'), 'M006', 'F006',
 
 INSERT INTO FORUM_MES(FORUM_MES_ID, MEMBRE_ID, FORUM_ID, MES_TEXT, MES_ADDTIME)
 VALUES ('MES'|| LPAD(TO_CHAR(FORUM_MES_SEQ.NEXTVAL),3,'0'), 'M007', 'F007',
-'好看好美😍', SYSDATE);
+'好看好美?', SYSDATE);
 
 INSERT INTO FORUM_MES(FORUM_MES_ID, MEMBRE_ID, FORUM_ID, MES_TEXT, MES_ADDTIME)
 VALUES ('MES'|| LPAD(TO_CHAR(FORUM_MES_SEQ.NEXTVAL),3,'0'), 'M008', 'F008',
 '拍拍
-
+12345
 我跟你遇到的一模一樣
 
 後來詢問長輩 他們覺得「本來就應該這樣做」 所以也沒特別說
@@ -1483,7 +1481,7 @@ VALUES ('MES'|| LPAD(TO_CHAR(FORUM_MES_SEQ.NEXTVAL),3,'0'), 'M009', 'F009',
 INSERT INTO FORUM_MES(FORUM_MES_ID, MEMBRE_ID, FORUM_ID, MES_TEXT, MES_ADDTIME)
 VALUES ('MES'|| LPAD(TO_CHAR(FORUM_MES_SEQ.NEXTVAL),3,'0'), 'M010', 'F010',
 '首先幫您先拍拍哦～籌備婚禮的過程非常繁瑣又會遇到很多鳥事，心情難免大受影響，此時隊友很重要哦！
-對於隊友爸媽的意見，您可以請隊友去溝通協調，過程中有任何不愉快，最好找人訴說，不要委屈自己或獨自難過哦！加油💪', SYSDATE);
+對於隊友爸媽的意見，您可以請隊友去溝通協調，過程中有任何不愉快，最好找人訴說，不要委屈自己或獨自難過哦！加油?', SYSDATE);
 
 --討論區資料結束
 
