@@ -1217,14 +1217,14 @@ insert into prod_type values('T004', '3C產品');
 insert into prod_type values('T005', '鞋類');
 insert into prod_type values('T010', '其他');
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T001', 20000, 2, 'Prada', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
-insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T002', 300, 10, '黑色Tshirt', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
+insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T002', 400, 3, '荷葉領上衣', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M002', 'T003', 350, 2, '休婚', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
-insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T004', 3000, 5, 'Airpods', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T005', 500, 4, '透氣餅乾鞋', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
+insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T004', 3000, 5, 'Airpods', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T005', 600, 4, '帆布鞋', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T005', 700, 4, '小白鞋', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T002', 350, 3, '短裙', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
-insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T002', 400, 3, '荷葉領上衣', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
+insert into prod values('P'|| LPAD(TO_CHAR(PROD_SEQ.NEXTVAL),3,'0'), 'M001', 'T002', 300, 10, '黑色Tshirt', '1', to_date('2020-02-20 20:20:20','yyyy-mm-dd hh24:mi:ss'));
 --商城假資料結束
 
 --討論區資料開始
