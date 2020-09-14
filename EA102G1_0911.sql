@@ -679,6 +679,9 @@ insert into membre(membre_id, mem_name, sex, address, phone, email, status, comp
 values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '胡毓昕', '女', '高雄三民', '0921447823', 'wed0803032@wedphoto.com.tw', '0', 'test4565', 'test456', sysdate);
 insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time)
 values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), '田宥潔', '女', '台南中西', '0930678921', 'wed0803032@wedphoto.com.tw', '0', 'test4566', 'test456', sysdate);
+insert into membre(membre_id, mem_name, sex, address, phone, email, status, compte, passe, regis_time)
+values('M'|| LPAD(TO_CHAR(MEMBRE_SEQ.NEXTVAL),3,'0'), 'yuhi', '女', '桃園青埔', '0985123456', 'forum@gmail.com', '0', 'yuhi', 'yuhi', sysdate);
+
 
 --新增「廠商」資料
 --1、2、4、8、10是禮車
@@ -1317,29 +1320,7 @@ VALUES ('F'|| LPAD(TO_CHAR(FORUM_SEQ.NEXTVAL),3,'0'), 'M003', '婚攝',
 
 攝影師的角度就是跟我們一般拿手機拍拍照的角度不一樣，專業之所以為專業就是用他的那臺相機跟我們手上的手機，拍起來就是不一樣。
 
-【理由六-會帶氣氛引導新人與親友就對了】
-
-對於我們兩家都是第一次嫁娶的來說，很多婚禮當下的細節都需要被提醒，而立勤婚攝的經驗豐富，所以有種兼著當控場人員的感覺，都會適時的提醒接下來的流程跟注意事項，感覺像跟團的導遊一樣，跟著他走就對了，還有笑話可以聽，還有好康可以拿。
-
-【理由七-照片量大檔案全送就對了】
-
-一天下來的畫面都讓立勤手上的相機給鉅細靡遺的記錄下來了，給照片不手軟不藏私，除了那種眼睛閉閉跟試光線的照片以外，全給!全都給!張數也是出乎原本契約的多出快要兩倍的量~除了搶先開放線上讓新人下載外，還用精美木質紋的USB裝起來供實體收納。
-
-【理由八-趁婚禮空檔拍攝類婚紗寫真就對了】
-
-還有什麼可以比這件事情有更高的CP值了?快狠準的在婚禮進行中，趁縫插針的來個兩人小世界，不拖泥帶水的在兩套禮服換裝間就完成了類婚紗拍攝~
-
-【理由九-拿到高質感的婚禮寫真本就對了】
-
-在結束兵荒馬亂的婚禮之後，約略一個月內會收到一本由立勤編排的婚禮寫真本，對我們而言這本是最超值的部分，可以拿給沒有機會參與我們婚禮的長輩們看，也可以拿給見證我們幸福的長輩們回味，自己也不斷的翻閱了好幾次，看見自己的故事。
-
-【理由十-把新娘紙拍瘦就對了】
-
-其實新娘從小就屬肉肉型妹紙
-
-所以當立勤用單手舉起重重的單眼邀我們自拍的時候
-
-效果意外美妙的將肉新娘拍瘦瘦，讓新娘很尬意!', SYSDATE);
+', SYSDATE);
 
 INSERT INTO FORUM(FORUM_ID, MEMBRE_ID, FORUM_CLASS,
 FORUM_TITLE, FORUM_CONTENT, FORUM_ADDTIME)
