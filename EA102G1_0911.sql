@@ -714,9 +714,9 @@ VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'Pon-Pon Photography','�
 INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
 VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'J-Love 婚禮攝影團隊','台北市中山區復興北路290號16樓', '02-7728-3610#5726', '陳先生', 'jlove@wedphoto.com.tw', 1, 1, 'test1234', 'test123', 0, to_date('2020-04-08 20:22:13','yyyy-mm-dd hh24:mi:ss'), 9, 37);
 INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'RT 映像工作室','台中市大雅區德勝路493號-7號', '02-7728-3610#1996', '康先生', 'rtRichie@wedphoto.com.tw', 1, 1, 'test1235', 'test123', 0, to_date('2020-06-03 09:05:08','yyyy-mm-dd hh24:mi:ss'), 17, 66);
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), 'RT 映像工作室','台中市大雅區德勝路493號-7號', '02-7728-3610#1996', '康先生', 'rtRichie@wedphoto.com.tw', 1, 1, 'test1235', 'test123', 0, to_date('2020-06-03 09:05:08','yyyy-mm-dd hh24:mi:ss'), 0, 0);
 INSERT INTO VENDER(VENDER_ID, VEN_NAME, VEN_ADDR, VEN_PHONE, VEN_CONTACT, VEN_MAIL, IS_VAILD, IS_ENABLE, VEN_ACCOUNT, VEN_PWD, VEN_SPONSOR, VEN_REGIS_TIME, VEN_REVIEW_COUNT, VEN_STARS_TOTAL)  
-VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '攝月工作室','南投縣草屯鎮中正路905號', '09082807311', '劉先生', 'cc@wedphoto.com.tw', 1, 0, '123456789', '123', 0, to_date('2020-06-03 09:05:08','yyyy-mm-dd hh24:mi:ss'), 17, 66);
+VALUES ('V'|| LPAD(TO_CHAR(VENDER_SEQ.NEXTVAL),3,'0'), '攝月工作室','南投縣草屯鎮中正路905號', '0908280732', '劉先生', 'youngsxz8929@gmail.com', 1, 0, '123456789', '1234', 0, to_date('2020-06-03 09:05:08','yyyy-mm-dd hh24:mi:ss'), 0, 0);
 
 
 -- 新增「禮車」資料
